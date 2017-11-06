@@ -1,0 +1,433 @@
+{
+  "name": "lexml-vocabularies",
+  "title": "LexML Brasil vocabularies, URN LEX subsides",
+  "description": "Brazilian official names used in URN LEX and Government Gazettes (diários oficiais)",
+  "repository": {
+    "type": "git",
+    "url": "http://git.ok.org.br/lexml-vocabulary"
+  },
+  "sources": [{
+      "title": "LexML norms, Part 6",
+      "name": "LexML Parte 6",
+      "web": "http://projeto.lexml.gov.br/documentacao/Parte-6-Vocabularios-Controlados.pdf"
+    },
+    {
+      "title": "vocabul-rios-controlados-da-urn-lex",
+      "name": "vocabul-rios-controlados-da-urn-lex",
+      "web": "http://dadosabertos.senado.leg.br/dataset/vocabul-rios-controlados-da-urn-lex"
+    }
+  ],
+  "keywords": [
+    "lexml",
+    "vocabulary",
+    "brazil"
+  ],
+  "license": {
+    "type": "ODC-PDDL",
+    "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+  },
+  "resources": [
+    {
+      "name": "autoridade",
+      "path": "data/autoridade.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "lang": "pt",
+      "description": "Vocabulário de autoridades emitentes de documentos",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "The original RDF's ID. No use, only for duplicates reference.",
+            "type": "integer",
+            "title":"ID"
+          },
+          {
+            "name": "about",
+            "description": "The URN LEX of the item",
+            "type": "string",
+            "title":"about"
+          },
+          {
+            "name": "prefLabel",
+            "description": "preferred label",
+            "type": "string",
+            "title":"prefLabel"
+          },
+          {
+            "name": "lang",
+            "description": "The language of the preferred label or its title",
+            "type": "string",
+            "title":"Language"
+          },
+          {
+            "name": "altLabel",
+            "description": "alternative Label - deprecated, use synonymous table",
+            "type": "string",
+            "title":"altLabel"
+          },
+          {
+            "name": "broader",
+            "description": "broader term or semantic parent",
+            "type": "string",
+            "title":"broader"
+          },
+          {
+            "name": "facetaAcronimo",
+            "description": "acrônimo da faceta - deprecated?",
+            "type": "string",
+            "title":"facetaAcronimo"
+          },
+          {
+            "name": "faceta",
+            "description": "faceta  - deprecated?",
+            "type": "string",
+            "title":"faceta"
+          },
+          {
+            "name": "prefNodeId",
+            "description": "ID of profLabel",
+            "type": "string",
+            "title":"faceta"
+          }
+        ]
+      },
+      "primaryKey": ["id"]
+    },
+    {
+      "name": "localidade",
+      "path": "data/localidade.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "lang": "pt",
+      "description": "Vocabulário de localidade das autoridades emitentes de documentos",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "The original RDF's ID. No use, only for duplicates reference.",
+            "type": "integer",
+            "title":"ID"
+          },
+          {
+            "name": "about",
+            "description": "The URN LEX of the item",
+            "type": "string",
+            "title":"about"
+          },
+          {
+            "name": "prefLabel",
+            "description": "preferred label",
+            "type": "string",
+            "title":"prefLabel"
+          },
+          {
+            "name": "lang",
+            "description": "The language of the preferred label or its title",
+            "type": "string",
+            "title":"Language"
+          },
+          {
+            "name": "altLabel",
+            "description": "alternative Label - deprecated, use synonymous table",
+            "type": "string",
+            "title":"altLabel"
+          },
+          {
+            "name": "broader",
+            "description": "broader term or semantic parent",
+            "type": "string",
+            "title":"broader"
+          },
+          {
+            "name": "facetaAcronimo",
+            "description": "acrônimo da faceta - deprecated?",
+            "type": "string",
+            "title":"facetaAcronimo"
+          },
+          {
+            "name": "faceta",
+            "description": "faceta  - deprecated?",
+            "type": "string",
+            "title":"faceta"
+          },
+          {
+            "name": "prefNodeId",
+            "description": "ID of profLabel",
+            "type": "string",
+            "title":"faceta"
+          }
+        ]
+      },
+      "primaryKey": ["id"]
+    },
+    {
+      "name": "tipoDocumento",
+      "path": "data/tipoDocumento.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "lang": "pt",
+      "description": "Vocabulário de tipos de documentos",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "The original RDF's ID. No use, only for duplicates reference.",
+            "type": "integer",
+            "title":"ID"
+          },
+          {
+            "name": "about",
+            "description": "The URN LEX of the item",
+            "type": "string",
+            "title":"about"
+          },
+          {
+            "name": "prefLabel",
+            "description": "preferred label",
+            "type": "string",
+            "title":"prefLabel"
+          },
+          {
+            "name": "lang",
+            "description": "The language of the preferred label or its title",
+            "type": "string",
+            "title":"Language"
+          },
+          {
+            "name": "altLabel",
+            "description": "alternative Label - deprecated, use synonymous table",
+            "type": "string",
+            "title":"altLabel"
+          },
+          {
+            "name": "broader",
+            "description": "broader term or semantic parent",
+            "type": "string",
+            "title":"broader"
+          },
+          {
+            "name": "facetaAcronimo",
+            "description": "acrônimo da faceta - deprecated?",
+            "type": "string",
+            "title":"facetaAcronimo"
+          },
+          {
+            "name": "faceta",
+            "description": "faceta  - deprecated?",
+            "type": "string",
+            "title":"faceta"
+          },
+          {
+            "name": "prefNodeId",
+            "description": "ID of profLabel",
+            "type": "string",
+            "title":"faceta"
+          }
+        ]
+      },
+      "primaryKey": ["id"]
+    },
+    {
+      "name": "evento",
+      "path": "data/evento.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "lang": "pt",
+      "description": "Vocabulário de eventos da visão",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "The original RDF's ID. No use, only for duplicates reference.",
+            "type": "integer",
+            "title":"ID"
+          },
+          {
+            "name": "about",
+            "description": "The URN LEX of the item",
+            "type": "string",
+            "title":"about"
+          },
+          {
+            "name": "prefLabel",
+            "description": "preferred label",
+            "type": "string",
+            "title":"prefLabel"
+          },
+          {
+            "name": "lang",
+            "description": "The language of the preferred label or its title",
+            "type": "string",
+            "title":"Language"
+          },
+          {
+            "name": "altLabel",
+            "description": "alternative Label - deprecated, use synonymous table",
+            "type": "string",
+            "title":"altLabel"
+          },
+          {
+            "name": "broader",
+            "description": "broader term or semantic parent",
+            "type": "string",
+            "title":"broader"
+          },
+          {
+            "name": "facetaAcronimo",
+            "description": "acrônimo da faceta - deprecated?",
+            "type": "string",
+            "title":"facetaAcronimo"
+          },
+          {
+            "name": "faceta",
+            "description": "faceta  - deprecated?",
+            "type": "string",
+            "title":"faceta"
+          },
+          {
+            "name": "prefNodeId",
+            "description": "ID of profLabel",
+            "type": "string",
+            "title":"faceta"
+          }
+        ]
+      },
+      "primaryKey": ["id"]
+    },
+    {
+      "name": "lingua",
+      "path": "data/lingua.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "lang": "pt",
+      "description": "Vocabulário de línguas",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "The original RDF's ID. No use, only for duplicates reference.",
+            "type": "integer",
+            "title":"ID"
+          },
+          {
+            "name": "about",
+            "description": "The URN LEX of the item",
+            "type": "string",
+            "title":"about"
+          },
+          {
+            "name": "prefLabel",
+            "description": "preferred label",
+            "type": "string",
+            "title":"prefLabel"
+          },
+          {
+            "name": "lang",
+            "description": "The language of the preferred label or its title",
+            "type": "string",
+            "title":"Language"
+          },
+          {
+            "name": "altLabel",
+            "description": "alternative Label - deprecated, use synonymous table",
+            "type": "string",
+            "title":"altLabel"
+          },
+          {
+            "name": "broader",
+            "description": "broader term or semantic parent",
+            "type": "string",
+            "title":"broader"
+          },
+          {
+            "name": "facetaAcronimo",
+            "description": "acrônimo da faceta - deprecated?",
+            "type": "string",
+            "title":"facetaAcronimo"
+          },
+          {
+            "name": "faceta",
+            "description": "faceta  - deprecated?",
+            "type": "string",
+            "title":"faceta"
+          },
+          {
+            "name": "prefNodeId",
+            "description": "ID of profLabel",
+            "type": "string",
+            "title":"faceta"
+          }
+        ]
+      },
+      "primaryKey": ["id"]
+    },
+    {
+      "name": "tipoConteudo",
+      "path": "data/tipoConteudo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "lang": "pt",
+      "description": "Vocabulário de tipo da expressão do Conteúdo",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "The original RDF's ID. No use, only for duplicates reference.",
+            "type": "integer",
+            "title":"ID"
+          },
+          {
+            "name": "about",
+            "description": "The URN LEX of the item",
+            "type": "string",
+            "title":"about"
+          },
+          {
+            "name": "prefLabel",
+            "description": "preferred label",
+            "type": "string",
+            "title":"prefLabel"
+          },
+          {
+            "name": "lang",
+            "description": "The language of the preferred label or its title",
+            "type": "string",
+            "title":"Language"
+          },
+          {
+            "name": "altLabel",
+            "description": "alternative Label - deprecated, use synonymous table",
+            "type": "string",
+            "title":"altLabel"
+          },
+          {
+            "name": "broader",
+            "description": "broader term or semantic parent",
+            "type": "string",
+            "title":"broader"
+          },
+          {
+            "name": "facetaAcronimo",
+            "description": "acrônimo da faceta - deprecated?",
+            "type": "string",
+            "title":"facetaAcronimo"
+          },
+          {
+            "name": "faceta",
+            "description": "faceta  - deprecated?",
+            "type": "string",
+            "title":"faceta"
+          },
+          {
+            "name": "prefNodeId",
+            "description": "ID of profLabel",
+            "type": "string",
+            "title":"faceta"
+          }
+        ]
+      },
+      "primaryKey": ["id"]
+    }
+  ]
+}
