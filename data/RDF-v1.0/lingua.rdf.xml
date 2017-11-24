@@ -5,7 +5,7 @@
     <dc:description>Vocabulário de línguas.</dc:description>
   </skos:ConceptScheme>
   <skos:Concept rdf:about="pt-br" rdf:id="1">
-    <skos:prefLabel xml:lang="pt-BR">Português</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt-BR">Português do Brasil</skos:prefLabel>
     <skos:inScheme rdf:resource="#lingua"/>
   </skos:Concept>
   <skos:Concept rdf:about="en" rdf:id="2">

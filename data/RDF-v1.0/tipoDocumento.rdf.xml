@@ -2643,12 +2643,6 @@
     <skos:inScheme rdf:resource="#tipoDocumento"/>
     <skos:broader rdf:resource="#resolucao"/>
   </skos:Concept>
-  <skos:Concept rdf:about="br:tribunal.superior.eleitoral:decisao;pet" rdf:id="461">
-    <skos:altLabel rdf:nodeID="label_995" xml:lang="pt-BR">Consulta</skos:altLabel>
-    <skos:prefLabel lexml:acronimoDe="label_993" lexml:faceta="Legislação::Decisão" lexml:facetaAcronimo="Pet – Petição" rdf:nodeID="label_994" xml:lang="pt-BR">Pet</skos:prefLabel>
-    <skos:inScheme rdf:resource="#tipoDocumento"/>
-    <skos:broader rdf:resource="#decisao"/>
-  </skos:Concept>
   <skos:Concept rdf:about="br:tribunal.superior.eleitoral:decisao;cta" rdf:id="461">
     <skos:altLabel rdf:nodeID="label_995" xml:lang="pt-BR">Consulta</skos:altLabel>
     <skos:prefLabel lexml:acronimoDe="label_995" lexml:faceta="Legislação::Decisão" lexml:facetaAcronimo="Cta – Consulta" rdf:nodeID="label_996" xml:lang="pt-BR">Cta</skos:prefLabel>
