@@ -10,7 +10,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;sao.paulo" rdf:id="16">
     <skos:prefLabel lexml:faceta="Estados::São Paulo" lexml:facetaAcronimo="SP – São Paulo" rdf:nodeID="label_64" xml:lang="pt-BR">São Paulo</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_64" lexml:urnAlt="brsp" rdf:nodeID="label_65" xml:lang="pt-BR">SP</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_64" lexml:urnAlt="br;sp" rdf:nodeID="label_65" xml:lang="pt-BR">SP</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -26,31 +26,31 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;acre" rdf:id="20">
     <skos:prefLabel lexml:faceta="Estados::Acre" lexml:facetaAcronimo="AC – Acre" rdf:nodeID="label_77" xml:lang="pt-BR">Acre</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_77" lexml:urnAlt="brac" rdf:nodeID="label_78" xml:lang="pt-BR">AC</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_77" lexml:urnAlt="br;ac" rdf:nodeID="label_78" xml:lang="pt-BR">AC</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;rondonia" rdf:id="21">
     <skos:prefLabel lexml:faceta="Estados::Rondônia" lexml:facetaAcronimo="RO – Rondônia" rdf:nodeID="label_79" xml:lang="pt-BR">Rondônia</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_79" lexml:urnAlt="brro" rdf:nodeID="label_80" xml:lang="pt-BR">RO</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_79" lexml:urnAlt="br;ro" rdf:nodeID="label_80" xml:lang="pt-BR">RO</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;parana" rdf:id="22">
     <skos:prefLabel lexml:faceta="Estados::Paraná" lexml:facetaAcronimo="PR – Paraná" rdf:nodeID="label_81" xml:lang="pt-BR">Paraná</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_81" lexml:urnAlt="brpr" rdf:nodeID="label_82" xml:lang="pt-BR">PR</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_81" lexml:urnAlt="br;pr" rdf:nodeID="label_82" xml:lang="pt-BR">PR</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;rio.grande.sul" rdf:id="23">
     <skos:prefLabel lexml:faceta="Estados::Rio Grande do Sul" lexml:facetaAcronimo="RS – Rio Grande do Sul" rdf:nodeID="label_83" xml:lang="pt-BR">Rio Grande do Sul</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_83" lexml:urnAlt="brrs" rdf:nodeID="label_84" xml:lang="pt-BR">RS</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_83" lexml:urnAlt="br;rs" rdf:nodeID="label_84" xml:lang="pt-BR">RS</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;distrito.federal" rdf:id="27">
     <skos:prefLabel lexml:faceta="Distrito Federal" lexml:facetaAcronimo="DF – Distrito Federal" rdf:nodeID="label_92" xml:lang="pt-BR">Distrito Federal</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_92" lexml:urnAlt="brdf" rdf:nodeID="label_93" xml:lang="pt-BR">DF</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_92" lexml:urnAlt="br;df" rdf:nodeID="label_93" xml:lang="pt-BR">DF</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -66,7 +66,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;minas.gerais" rdf:id="30">
     <skos:prefLabel lexml:faceta="Estados::Minas Gerais" lexml:facetaAcronimo="MG – Minas Gerais" rdf:nodeID="label_117" xml:lang="pt-BR">Minas Gerais</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_117" lexml:urnAlt="brmg" rdf:nodeID="label_118" xml:lang="pt-BR">MG</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_117" lexml:urnAlt="br;mg" rdf:nodeID="label_118" xml:lang="pt-BR">MG</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -82,13 +82,13 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;tocantins" rdf:id="33">
     <skos:prefLabel lexml:faceta="Municípios::Tocantins" lexml:facetaAcronimo="TO – Tocantins" rdf:nodeID="label_135" xml:lang="pt-BR">Tocantins</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_135" lexml:urnAlt="brto" rdf:nodeID="label_136" xml:lang="pt-BR">TO</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_135" lexml:urnAlt="br;to" rdf:nodeID="label_136" xml:lang="pt-BR">TO</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;espirito.santo" rdf:id="34">
     <skos:prefLabel lexml:faceta="Estados::Espírito Santo" lexml:facetaAcronimo="ES – Espírito Santo" rdf:nodeID="label_137" xml:lang="pt-BR">Espírito Santo</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_137" lexml:urnAlt="bres" rdf:nodeID="label_138" xml:lang="pt-BR">ES</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_137" lexml:urnAlt="br;es" rdf:nodeID="label_138" xml:lang="pt-BR">ES</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -104,7 +104,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;paraiba" rdf:id="37">
     <skos:prefLabel lexml:faceta="Estados::Paraíba" lexml:facetaAcronimo="PB – Paraíba" rdf:nodeID="label_141" xml:lang="pt-BR">Paraíba</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_141" lexml:urnAlt="brpb" rdf:nodeID="label_142" xml:lang="pt-BR">PB</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_141" lexml:urnAlt="br;pb" rdf:nodeID="label_142" xml:lang="pt-BR">PB</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -115,7 +115,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;goias" rdf:id="39">
     <skos:prefLabel lexml:faceta="Estados::Goiás" lexml:facetaAcronimo="GO – Goiás" rdf:nodeID="label_144" xml:lang="pt-BR">Goiás</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_144" lexml:urnAlt="brgo" rdf:nodeID="label_145" xml:lang="pt-BR">GO</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_144" lexml:urnAlt="br;go" rdf:nodeID="label_145" xml:lang="pt-BR">GO</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -131,7 +131,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.eleitoral;paraiba" rdf:id="58">
     <skos:prefLabel lexml:faceta="Paraíba" lexml:facetaAcronimo="PB – Paraíba" rdf:nodeID="label_1007" xml:lang="pt-BR">Paraíba</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_1007" lexml:urnAlt="br;justica.eleitoralpb" rdf:nodeID="label_1008" xml:lang="pt-BR">PB</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_1007" lexml:urnAlt="br;justica.eleitoral;pb" rdf:nodeID="label_1008" xml:lang="pt-BR">PB</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.eleitoral"/>
   </skos:Concept>
@@ -142,7 +142,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.13" rdf:id="60">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::13ª Região - Paraíba" lexml:facetaAcronimo="TRT13 – 13ª Região - Paraíba" rdf:nodeID="label_1010" xml:lang="pt-BR">13ª Região - Paraíba</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_1010" lexml:urnAlt="br;justica.trabalhotrt13" rdf:nodeID="label_6721" xml:lang="pt-BR">TRT13</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_1010" lexml:urnAlt="br;justica.trabalho;trt13" rdf:nodeID="label_6721" xml:lang="pt-BR">TRT13</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
@@ -168,13 +168,13 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.federal;regiao.1;secao.judiciaria;goias" rdf:id="65">
     <skos:prefLabel lexml:faceta="Goiás" lexml:facetaAcronimo="GO – Goiás" rdf:nodeID="label_1015" xml:lang="pt-BR">Goiás</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_1015" lexml:urnAlt="br;justica.federal;regiao.1;secao.judiciariago" rdf:nodeID="label_1016" xml:lang="pt-BR">GO</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_1015" lexml:urnAlt="br;justica.federal;regiao.1;secao.judiciaria;go" rdf:nodeID="label_1016" xml:lang="pt-BR">GO</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.federal;regiao.1;secao.judiciaria"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;amapa" rdf:id="66">
     <skos:prefLabel lexml:faceta="Amapá" lexml:facetaAcronimo="AP – Amapá" rdf:nodeID="label_1017" xml:lang="pt-BR">Amapá</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_1017" lexml:urnAlt="brap" rdf:nodeID="label_1018" xml:lang="pt-BR">AP</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_1017" lexml:urnAlt="br;ap" rdf:nodeID="label_1018" xml:lang="pt-BR">AP</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -4450,13 +4450,13 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;alagoas" rdf:id="982">
     <skos:prefLabel lexml:faceta="Alagoas" lexml:facetaAcronimo="AL – Alagoas" rdf:nodeID="label_5424" xml:lang="pt-BR">Alagoas</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_5424" lexml:urnAlt="bral" rdf:nodeID="label_5423" xml:lang="pt-BR">AL</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_5424" lexml:urnAlt="br;al" rdf:nodeID="label_5423" xml:lang="pt-BR">AL</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;santa.catarina" rdf:id="995">
     <skos:prefLabel lexml:faceta="Estados::Santa Catarina" lexml:facetaAcronimo="SC – Santa Catarina" rdf:nodeID="label_5453" xml:lang="pt-BR">Santa Catarina</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_5453" lexml:urnAlt="brsc" rdf:nodeID="label_5454" xml:lang="pt-BR">SC</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_5453" lexml:urnAlt="br;sc" rdf:nodeID="label_5454" xml:lang="pt-BR">SC</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -6957,7 +6957,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.8" rdf:id="1674">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::8ª Região - Pará e Amapá" lexml:facetaAcronimo="TRT8 – 8ª Região - Pará e Amapá" rdf:nodeID="label_6281" xml:lang="pt-BR">8ª Região - Pará e Amapá</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6281" lexml:urnAlt="br;justica.trabalhotrt8" rdf:nodeID="label_6304" xml:lang="pt-BR">TRT8</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6281" lexml:urnAlt="br;justica.trabalho;trt8" rdf:nodeID="label_6304" xml:lang="pt-BR">TRT8</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
@@ -6968,7 +6968,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.24" rdf:id="1858">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::24ª Região - Mato Grosso do Sul" lexml:facetaAcronimo="TRT24 – 24ª Região - Mato Grosso do Sul" rdf:nodeID="label_6660" xml:lang="pt-BR">24ª Região - Mato Grosso do Sul</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6660" lexml:urnAlt="br;justica.trabalhotrt24" rdf:nodeID="label_6704" xml:lang="pt-BR">TRT24</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6660" lexml:urnAlt="br;justica.trabalho;trt24" rdf:nodeID="label_6704" xml:lang="pt-BR">TRT24</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
@@ -7074,7 +7074,7 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.12" rdf:id="1901">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::12ª Região - Santa Catarina" lexml:facetaAcronimo="TRT12 – 12ª Região - Santa Catarina" rdf:nodeID="label_6705" xml:lang="pt-BR">12ª Região - Santa Catarina</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6705" lexml:urnAlt="br;justica.trabalhotrt12" rdf:nodeID="label_6706" xml:lang="pt-BR">TRT12</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6705" lexml:urnAlt="br;justica.trabalho;trt12" rdf:nodeID="label_6706" xml:lang="pt-BR">TRT12</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
@@ -7235,13 +7235,13 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.16" rdf:id="1952">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::16ª Região - Maranhão" lexml:facetaAcronimo="TRT16 – 16ª Região - Maranhão" rdf:nodeID="label_6791" xml:lang="pt-BR">16ª Região - Maranhão</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6791" lexml:urnAlt="br;justica.trabalhotrt16" rdf:nodeID="label_6792" xml:lang="pt-BR">TRT16</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6791" lexml:urnAlt="br;justica.trabalho;trt16" rdf:nodeID="label_6792" xml:lang="pt-BR">TRT16</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;mato.grosso" rdf:id="1953">
     <skos:prefLabel lexml:faceta="Estados::Mato Grosso" lexml:facetaAcronimo="MT – Mato Grosso" rdf:nodeID="label_6793" xml:lang="pt-BR">Mato Grosso</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6793" lexml:urnAlt="brmt" rdf:nodeID="label_6794" xml:lang="pt-BR">MT</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6793" lexml:urnAlt="br;mt" rdf:nodeID="label_6794" xml:lang="pt-BR">MT</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -7252,19 +7252,19 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.1" rdf:id="1959">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::1ª Região - Rio de Janeiro" lexml:facetaAcronimo="TRT1 – 1ª Região - Rio de Janeiro" rdf:nodeID="label_6801" xml:lang="pt-BR">1ª Região - Rio de Janeiro</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6801" lexml:urnAlt="br;justica.trabalhotrt1" rdf:nodeID="label_6802" xml:lang="pt-BR">TRT1</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6801" lexml:urnAlt="br;justica.trabalho;trt1" rdf:nodeID="label_6802" xml:lang="pt-BR">TRT1</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;justica.trabalho;regiao.3" rdf:id="1969">
     <skos:prefLabel lexml:faceta="Brasil::Justiça do Trabalho::3ª Região - Minas Gerais" lexml:facetaAcronimo="TRT3 – 3ª Região - Minas Gerais" rdf:nodeID="label_6814" xml:lang="pt-BR">3ª Região - Minas Gerais</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6814" lexml:urnAlt="br;justica.trabalhotrt3" rdf:nodeID="label_6815" xml:lang="pt-BR">TRT3</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6814" lexml:urnAlt="br;justica.trabalho;trt3" rdf:nodeID="label_6815" xml:lang="pt-BR">TRT3</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br;justica.trabalho"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;rio.janeiro" rdf:id="1970">
     <skos:prefLabel lexml:faceta="Estados::Rio de Janeiro" lexml:facetaAcronimo="RJ – Rio de Janeiro" rdf:nodeID="label_6818" xml:lang="pt-BR">Rio de Janeiro</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6818" lexml:urnAlt="brrj" rdf:nodeID="label_6819" xml:lang="pt-BR">RJ</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6818" lexml:urnAlt="br;rj" rdf:nodeID="label_6819" xml:lang="pt-BR">RJ</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
@@ -7445,67 +7445,67 @@
   </skos:Concept>
   <skos:Concept rdf:about="br;amazonas" rdf:id="2061">
     <skos:prefLabel lexml:faceta="Estados::Amazonas" lexml:facetaAcronimo="AM – Amazonas" rdf:nodeID="label_6961" xml:lang="pt-BR">Amazonas</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6961" lexml:urnAlt="bram" rdf:nodeID="label_6962" xml:lang="pt-BR">AM</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6961" lexml:urnAlt="br;am" rdf:nodeID="label_6962" xml:lang="pt-BR">AM</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;roraima" rdf:id="2062">
     <skos:prefLabel lexml:faceta="Estados::Roraima" lexml:facetaAcronimo="RR – Roraima" rdf:nodeID="label_6963" xml:lang="pt-BR">Roraima</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6963" lexml:urnAlt="brrr" rdf:nodeID="label_6964" xml:lang="pt-BR">RR</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6963" lexml:urnAlt="br;rr" rdf:nodeID="label_6964" xml:lang="pt-BR">RR</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;para" rdf:id="2063">
     <skos:prefLabel lexml:faceta="Estados::Pará" rdf:nodeID="label_6965" xml:lang="pt-BR">Pará</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6365" lexml:urnAlt="brpa" rdf:nodeID="label_6966" xml:lang="pt-BR">PA</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6365" lexml:urnAlt="br;pa" rdf:nodeID="label_6966" xml:lang="pt-BR">PA</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;maranhao" rdf:id="2064">
     <skos:prefLabel lexml:faceta="Estados::Maranhão" rdf:nodeID="label_6967" xml:lang="pt-BR">Maranhão</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6367" lexml:urnAlt="brma" rdf:nodeID="label_6968" xml:lang="pt-BR">MA</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6367" lexml:urnAlt="br;ma" rdf:nodeID="label_6968" xml:lang="pt-BR">MA</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;piaui" rdf:id="2065">
     <skos:prefLabel lexml:faceta="Estados::Piauí" rdf:nodeID="label_6969" xml:lang="pt-BR">Piauí</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6369" lexml:urnAlt="brpi" rdf:nodeID="label_6970" xml:lang="pt-BR">PI</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6369" lexml:urnAlt="br;pi" rdf:nodeID="label_6970" xml:lang="pt-BR">PI</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;ceara" rdf:id="2066">
     <skos:prefLabel lexml:faceta="Estados::Ceará" rdf:nodeID="label_6971" xml:lang="pt-BR">Ceará</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6371" lexml:urnAlt="brce" rdf:nodeID="label_6972" xml:lang="pt-BR">CE</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6371" lexml:urnAlt="br;ce" rdf:nodeID="label_6972" xml:lang="pt-BR">CE</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;rio.grande.norte" rdf:id="2067">
     <skos:prefLabel lexml:faceta="Estados::Rio Grande do Norte" rdf:nodeID="label_6973" xml:lang="pt-BR">Rio Grande do Norte</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6373" lexml:urnAlt="brrn" rdf:nodeID="label_6974" xml:lang="pt-BR">RN</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6373" lexml:urnAlt="br;rn" rdf:nodeID="label_6974" xml:lang="pt-BR">RN</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;pernambuco" rdf:id="2068">
     <skos:prefLabel lexml:faceta="Estados::Pernambuco" rdf:nodeID="label_6975" xml:lang="pt-BR">Pernambuco</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6375" lexml:urnAlt="brpe" rdf:nodeID="label_6976" xml:lang="pt-BR">PE</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6375" lexml:urnAlt="br;pe" rdf:nodeID="label_6976" xml:lang="pt-BR">PE</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;sergipe" rdf:id="2069">
     <skos:prefLabel lexml:faceta="Estados::Sergipe" rdf:nodeID="label_6977" xml:lang="pt-BR">Sergipe</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6377" lexml:urnAlt="brse" rdf:nodeID="label_6978" xml:lang="pt-BR">SE</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6377" lexml:urnAlt="br;se" rdf:nodeID="label_6978" xml:lang="pt-BR">SE</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;bahia" rdf:id="2070">
     <skos:prefLabel lexml:faceta="Estados::Bahia" rdf:nodeID="label_6979" xml:lang="pt-BR">Bahia</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6379" lexml:urnAlt="brba" rdf:nodeID="label_6980" xml:lang="pt-BR">BA</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6379" lexml:urnAlt="br;ba" rdf:nodeID="label_6980" xml:lang="pt-BR">BA</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>
   <skos:Concept rdf:about="br;mato.grosso.sul" rdf:id="2071">
     <skos:prefLabel lexml:faceta="Estados::Mato Grosso do Sul" rdf:nodeID="label_6981" xml:lang="pt-BR">Mato Grosso do Sul</skos:prefLabel>
-    <skos:altLabel lexml:acronimoDe="label_6381" lexml:urnAlt="brms" rdf:nodeID="label_6982" xml:lang="pt-BR">MS</skos:altLabel>
+    <skos:altLabel lexml:acronimoDe="label_6381" lexml:urnAlt="br;ms" rdf:nodeID="label_6982" xml:lang="pt-BR">MS</skos:altLabel>
     <skos:inScheme rdf:resource="#localidade"/>
     <skos:broader rdf:resource="#br"/>
   </skos:Concept>

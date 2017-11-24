@@ -13,13 +13,13 @@ Apesar do [padrão RDF](https://en.wikipedia.org/wiki/Resource_Description_Frame
 
 ## Versão corrente dos vocabulários
 
-A [_tag_ de versão próprio *git*](https://github.com/okfn-brasil/lexml-vocabulary/releases) determina a versão corrente válida &mdash; a mais recente entre as versões lançadas, e em geral anterior ao último *commit* do repositório. As _tags_ de versão seguem a sintaxe de [Major.minNor.Patch](http://semVer.org/) (<tt>vM.N.P</tt>), sendo que os arquivos RDF são mantidos em sua versão mais na pasta correspondente <tt>vM.N</tt>.
+A [_tag_ de versão próprio *git*](https://github.com/lexml/lexml-vocabulary/releases) determina a versão corrente válida &mdash; a mais recente entre as versões lançadas, e em geral anterior ao último *commit* do repositório. As _tags_ de versão seguem a sintaxe de [Major.minNor.Patch](http://semVer.org/) (<tt>vM.N.P</tt>), sendo que os arquivos RDF são mantidos em sua versão mais na pasta correspondente <tt>vM.N</tt>.
 
 A _tag_ do repositório só é atribuída quando todos os RDFs da pasta mais atual forem homologados. Arquivos que não sofrem alteração permanecem na pasta onde receberam a última homologação. No repositório são previstos os seguintes tipos de arquivo:
 
 * Documentos **XML** formato RDF: mantidos cada qual na sua pasta `data/RDF-vM.N`, quando um arquivo estiver ausente significa que ainda se encontra na versão anterior (portanto na pasta correspondente).
 
-* Documentos **CSV**: mantidos na pasta de dados, [*data*](data) e descritos no arquivo [`datapackage.json`](datapackage.json), seguem a versão corrente do repositório, em  sincronia (ou à frente) dos arquivos RDF. Versões específicas poderão ser encontradas navegandos-se pelas [versões antigas do repositório](https://github.com/okfn-brasil/lexml-vocabulary/releases).
+* Documentos **CSV**: mantidos na pasta de dados, [*data*](data) e descritos no arquivo [`datapackage.json`](datapackage.json), seguem a versão corrente do repositório, em  sincronia (ou à frente) dos arquivos RDF. Versões específicas poderão ser encontradas navegandos-se pelas [versões antigas do repositório](https://github.com/lexml/lexml-vocabulary/releases).
 
 ## Licenças
 
